@@ -7107,8 +7107,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
-		(at 38.1 50.8 0)
-		(mirror y)
+		(at 38.1 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7116,7 +7115,7 @@
 		(dnp no)
 		(uuid "33735541-d89f-478b-b3a2-c384f5786cf2")
 		(property "Reference" "J1"
-			(at 38.735 63.5 0)
+			(at 38.735 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,14 +7123,14 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Socket"
-			(at 38.735 60.96 0)
+			(at 38.735 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S7B-EH_1x07_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal"
 			(at 38.1 50.8 0)
 			(effects
 				(font
