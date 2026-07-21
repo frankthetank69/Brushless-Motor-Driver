@@ -3220,6 +3220,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2do:\n10k seriell an jeden input\n"
+		(exclude_from_sim no)
+		(at 41.91 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22f7747d-e036-4851-aecd-aa54bf955d0f")
+	)
 	(junction
 		(at 109.22 29.21)
 		(diameter 0)

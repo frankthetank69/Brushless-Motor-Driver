@@ -386,7 +386,7 @@
 			(uuid "2f0a174c-43d4-4d01-a0d6-94970ba1d6f3")
 		)
 		(fp_text user "K"
-			(at -1.5 0 180)
+			(at -1.5 0 0)
 			(layer "F.SilkS")
 			(uuid "be63f34a-f619-46c1-bdba-ff4fb1cb907b")
 			(effects
@@ -452,7 +452,6 @@
 		(property "Reference" "C4"
 			(at 0 -1.68 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "34f40af8-9390-444f-af8c-007db3925764")
 			(effects
 				(font
@@ -851,7 +850,6 @@
 		(property "Reference" "C7"
 			(at 7.367677 -4 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "19c4e1ce-bd01-4023-ac44-a2679d6f946a")
 			(effects
 				(font
@@ -3386,7 +3384,6 @@
 		(property "Reference" "C16"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "825f3fd4-c195-4481-b571-4d82b4bd56cb")
 			(effects
 				(font
@@ -3586,7 +3583,6 @@
 		(property "Reference" "C10"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "d62432ab-ab4d-482d-bca1-e285bfa19eba")
 			(effects
 				(font
@@ -3786,7 +3782,6 @@
 		(property "Reference" "IC_A1"
 			(at 0 -3.575 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "1e3c7c9a-e276-4ffd-b17d-241a3ba7f114")
 			(effects
 				(font
@@ -4332,7 +4327,6 @@
 		(property "Reference" "H3"
 			(at 0 -4.45 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e1a1acfd-92bd-42cf-aca3-51b436d4387e")
 			(effects
 				(font
@@ -4524,7 +4518,6 @@
 		(property "Reference" "D1"
 			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "5ea990b8-87f6-4580-bb07-55c196a6afdc")
 			(effects
 				(font
@@ -4811,7 +4804,6 @@
 		(property "Reference" "C17"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "d792cb33-0f40-43d2-b415-596ce33b800a")
 			(effects
 				(font
@@ -5211,7 +5203,6 @@
 		(property "Reference" "C9"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e49db374-1638-4faf-aea6-7bdf7620d3f6")
 			(effects
 				(font
@@ -5621,7 +5612,7 @@
 			(uuid "351e0c1e-f962-453f-bed6-d624b3dbbce9")
 		)
 		(fp_text user "K"
-			(at -1.69 0 180)
+			(at -1.69 0 0)
 			(layer "F.SilkS")
 			(uuid "99a46b1a-fa49-478b-a09c-1751bc224f24")
 			(effects
@@ -5985,7 +5976,6 @@
 		(property "Reference" "C15"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "a116aa50-a744-490e-9d6b-c3b461a06509")
 			(effects
 				(font
@@ -6185,7 +6175,6 @@
 		(property "Reference" "H2"
 			(at 0 -4.45 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "72440674-e2a4-4447-ba82-493f272358b7")
 			(effects
 				(font
@@ -6377,7 +6366,6 @@
 		(property "Reference" "J1"
 			(at 6 -2.55 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "dbfcc28c-6fc8-4a07-8657-122071311a11")
 			(effects
 				(font
@@ -6938,7 +6926,6 @@
 		(property "Reference" "C14"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "5c53b749-4c8e-4e5c-b420-8311d62a1621")
 			(effects
 				(font
@@ -7327,7 +7314,6 @@
 		(property "Reference" "C6"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "32b9f987-c707-4642-9b34-06b2d1deb7f2")
 			(effects
 				(font
@@ -8304,7 +8290,6 @@
 		(property "Reference" "IC_C1"
 			(at 0 -3.5 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "f805b8ba-4d22-4e77-8849-725c9ed86ba9")
 			(effects
 				(font
@@ -8589,7 +8574,6 @@
 		(property "Reference" "PWR1"
 			(at 2.25 -5.12 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "cf3e0575-f025-4839-9df0-58ccb683c069")
 			(effects
 				(font
@@ -9029,7 +9013,6 @@
 		(property "Reference" "C1"
 			(at 0 -1.68 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ad8fb701-0458-4632-be6a-9d4566befcfa")
 			(effects
 				(font
@@ -9439,7 +9422,7 @@
 			(uuid "d3e16930-902a-45d8-b1e7-ab3d271065b1")
 		)
 		(fp_text user "K"
-			(at -1.69 0 180)
+			(at -1.69 0 0)
 			(layer "F.SilkS")
 			(uuid "2872358c-d356-4968-aa44-04de8162582b")
 			(effects
@@ -9505,7 +9488,6 @@
 		(property "Reference" "C3"
 			(at 0 -1.68 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ae8c528a-1744-48f3-8e84-514d892e135f")
 			(effects
 				(font
@@ -10233,7 +10215,6 @@
 		(property "Reference" "H1"
 			(at 0 -4.45 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "453de5f9-14dd-4a6d-b488-e4d9dfe1f7dc")
 			(effects
 				(font
@@ -10686,7 +10667,6 @@
 		(property "Reference" "U5"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "a3aac1c4-5633-4e12-8cd7-1e091628ffda")
 			(effects
 				(font
@@ -11369,7 +11349,6 @@
 		(property "Reference" "C8"
 			(at 7.367677 -5.5 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "e3ccca7d-dee8-429d-bd03-d0f84edabae0")
 			(effects
 				(font
@@ -13444,7 +13423,6 @@
 		(property "Reference" "A1"
 			(at 7.62 -5.08 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "3ff10d49-327e-4959-9192-7d9268a1f528")
 			(effects
 				(font
@@ -14559,7 +14537,6 @@
 		(property "Reference" "D7"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "0fae91b0-5680-43ba-a762-58dbfb1e51b2")
 			(effects
 				(font
@@ -14831,7 +14808,6 @@
 		(property "Reference" "C11"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "4c355254-2862-45af-af92-8c91e04b3fce")
 			(effects
 				(font
@@ -15031,7 +15007,6 @@
 		(property "Reference" "IC_B1"
 			(at 0 -3.5 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "70d00ebb-22e7-4488-b434-0d9e45f2a9fc")
 			(effects
 				(font
@@ -15316,7 +15291,6 @@
 		(property "Reference" "C5"
 			(at 0 -1.68 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "63eb4da5-8a02-4fdd-ac8d-00cb2abb955b")
 			(effects
 				(font
@@ -15514,7 +15488,7 @@
 		(descr "terminal block MaiXu MX126-5.0-03P, 3 pins, pitch 5mm, size 15.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu")
 		(tags "THT terminal block MaiXu MX126-5.0-03P pitch 5mm size 15.5x7.8mm drill 1.3mm pad 2.8mm")
 		(property "Reference" "J3"
-			(at 4.75 -5.12 270)
+			(at 4.75 -5.12 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f4834bae-4ae4-4ad2-bbb0-9841e2f3c35f")
@@ -15526,7 +15500,7 @@
 			)
 		)
 		(property "Value" "motor"
-			(at 4.75 4.92 270)
+			(at 4.75 4.92 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d638a08b-5e0c-4ee4-ae9b-c1be98071639")
@@ -15538,7 +15512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f91a892-11cf-4797-b5af-c801fa6bd729")
@@ -15550,7 +15524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5fcb95c-57b9-45d7-a629-5a8c6ef03a8a")
@@ -15962,7 +15936,7 @@
 			(uuid "fd0833fa-fdf9-4a0d-a3b2-e8856e5dd8cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.75 2.65 270)
+			(at 4.75 2.65 90)
 			(layer "F.Fab")
 			(uuid "44ace797-b0a1-4086-84ff-a957391fc385")
 			(effects
@@ -16028,7 +16002,6 @@
 		(property "Reference" "H4"
 			(at 0 -4.45 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "46c838e4-78e6-44a9-b935-2484829eded1")
 			(effects
 				(font
@@ -16220,7 +16193,6 @@
 		(property "Reference" "D2"
 			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "c25b83e5-da6d-4445-a767-eb5132fa071c")
 			(effects
 				(font
@@ -16507,7 +16479,6 @@
 		(property "Reference" "C2"
 			(at 0 -1.68 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "69fffb24-e80b-42dc-881c-6bc515d66705")
 			(effects
 				(font
@@ -16707,7 +16678,6 @@
 		(property "Reference" "C12"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "7cd664f7-8fa0-475b-8ec7-67b7bf47387d")
 			(effects
 				(font
@@ -16907,7 +16877,6 @@
 		(property "Reference" "C13"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "94be57cd-0438-4223-aaea-cffc656f55d8")
 			(effects
 				(font
@@ -17572,7 +17541,7 @@
 		(uuid "e6d74b82-d95d-4764-9ea5-d53d18d59970")
 	)
 	(gr_text "+5V"
-		(at 182 130 0)
+		(at 181.5 130 0)
 		(layer "F.SilkS")
 		(uuid "105d2183-7aa1-43b4-814a-adec361c3199")
 		(effects
@@ -17596,7 +17565,7 @@
 		)
 	)
 	(gr_text "A"
-		(at 181.5 103 90)
+		(at 180.5 103 90)
 		(layer "F.SilkS")
 		(uuid "20e74841-2668-4b70-a420-a50e0c8f69da")
 		(effects
@@ -17633,7 +17602,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 114 125 90)
+		(at 116.5 125 90)
 		(layer "F.SilkS")
 		(uuid "3d0b5070-5ee1-4e62-9b16-99b6162bd0eb")
 		(effects
@@ -17693,7 +17662,7 @@
 		)
 	)
 	(gr_text "HC"
-		(at 182 124 0)
+		(at 181.5 124 0)
 		(layer "F.SilkS")
 		(uuid "8edb6b76-7fe3-4d58-9762-c2a743644b72")
 		(effects
@@ -17705,7 +17674,7 @@
 		)
 	)
 	(gr_text "B"
-		(at 181.5 110 90)
+		(at 180.5 110 90)
 		(layer "F.SilkS")
 		(uuid "a17b6b41-bb5c-4584-ad03-6ae1ff9a7aa6")
 		(effects
@@ -17718,7 +17687,7 @@
 		)
 	)
 	(gr_text "HB"
-		(at 182 126 0)
+		(at 181.5 126 0)
 		(layer "F.SilkS")
 		(uuid "a75c6c9d-59d5-4b54-8604-7f5c583f168d")
 		(effects
@@ -17754,7 +17723,7 @@
 		)
 	)
 	(gr_text "VS"
-		(at 114 130.5 90)
+		(at 116.5 130.5 90)
 		(layer "F.SilkS")
 		(uuid "afa130a3-c12b-4965-bd57-31cbacc3c640")
 		(effects
@@ -17766,7 +17735,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 182.001112 122.023428 0)
+		(at 181.501112 122.023428 0)
 		(layer "F.SilkS")
 		(uuid "ce21092c-6601-4785-a872-fb6ab35a2390")
 		(effects
@@ -17778,7 +17747,7 @@
 		)
 	)
 	(gr_text "C"
-		(at 181.5 115.5 90)
+		(at 180.5 115.5 90)
 		(layer "F.SilkS")
 		(uuid "d7650ba2-ecb4-4f6a-9478-2361957c2909")
 		(effects
@@ -17803,7 +17772,7 @@
 		)
 	)
 	(gr_text "HA"
-		(at 181.887958 128.020615 0)
+		(at 181.387958 128.020615 0)
 		(layer "F.SilkS")
 		(uuid "f930af68-e238-4eb6-bfc0-ed7932a4d93a")
 		(effects
