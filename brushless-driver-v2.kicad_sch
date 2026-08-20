@@ -5624,7 +5624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "meiBib:SOT-223-3_TabPin2"
 			(at 93.345 33.02 0)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "meiBib:SOD-123W"
 			(at 133.35 34.29 0)
 			(effects
 				(font
