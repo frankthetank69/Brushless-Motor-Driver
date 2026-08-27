@@ -15,9 +15,14 @@
 
 uint8_t state = 0;
 uint8_t halState = 0;
-uint8_t thr = 255;
+uint8_t lastHalState = 0;
+uint8_t thr = 0;
 bool dir = 0;   //vorwärts
-int actSpeed = 0;
+float actSpeed = 0;
+float phi_el = 0;
+double t_ms = 0;
+float dt_ms = 0;
+
 
 bool commState[6][3] = {{1,0,0},
                       {1,1,0},
@@ -29,7 +34,9 @@ bool hallAr[3] = {0,0,0};
 
 void readHall();
 uint8_t readHallState();
+uint8_t commutation(uint8_t i_halState, bool i_dir);
 void coilOut(uint8_t state);
+float calcPhiEl(uint8_t i_halState, uint8_t i_lastHalState, float i_phiEl);
 
 void setup() {
   pinMode(HA, INPUT_PULLUP);
@@ -61,21 +68,16 @@ void setup() {
 void loop() {
   readHall();
   halState = readHallState();
-  //thr = analogRead(THR);
-  dir = digitalRead(DIR);
-  if(halState != 255){
-    if(!dir){
-      state = halState;
-    }else{  
-      if(halState - 2 >= 0){   //overflow
-        state = halState - 2;
-      }else{
-        state = halState - 2 + 6;
-      }
-    }
-  }
+  //phi_el = calcPhiEl(halState, lastHalState, phi_el);
+  //Serial.println(phi_el);
 
+  thr = analogRead(THR)/4;
+  dir = !digitalRead(DIR);
+  
+  state = commutation(halState, dir);
   coilOut(state);
+  t_ms = millis();
+  lastHalState = halState;
 } 
 
 void readHall(){
@@ -97,6 +99,38 @@ uint8_t readHallState(){
     }
   }
   return 255;   //kein gültiger state gefunden
+}
+
+uint8_t commutation(uint8_t i_halState, bool i_dir){
+  uint8_t o_state = 0;
+  if(halState != 255){
+    if(!i_dir){
+      if(halState + 1 < 6){   //overflow
+        o_state = halState + 1;
+      }else{
+        o_state = halState + 1 - 6;
+      }
+    }else{  
+      if(halState - 2 >= 0){   //underflow
+        o_state = halState - 2;
+      }else{
+        o_state = halState - 2 + 6;
+      }
+    }
+  }
+  return o_state;
+}
+
+float calcPhiEl(uint8_t i_halState, uint8_t i_lastHalState, float i_phiEl){
+  float o_phiEl = i_phiEl;
+  if(i_halState != i_lastHalState){   //state changed
+    if(i_halState > i_lastHalState){  
+      o_phiEl += (float)1/6;
+    }else{
+      o_phiEl -= (float)1/6;
+    }
+  }
+  return o_phiEl;
 }
 
 void coilOut(uint8_t trgtState){
