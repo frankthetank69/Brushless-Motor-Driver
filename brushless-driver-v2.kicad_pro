@@ -646,6 +646,14 @@
     [
       "3ed0d617-7da0-4e68-9417-effded163278",
       "Root"
+    ],
+    [
+      "22a74d06-8b2a-4309-aac9-2428121dbdfc",
+      "powerStage_l"
+    ],
+    [
+      "3a6907c7-2778-470a-8083-e9bbc9d4d38b",
+      "powerStage_r"
     ]
   ],
   "text_variables": {}
