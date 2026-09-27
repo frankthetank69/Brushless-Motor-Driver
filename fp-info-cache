@@ -1,4 +1,4 @@
-26722547941441097
+26724338212381809
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106371,6 +106371,13 @@ CMS SOT
 0
 4
 3
+meiBib
+TO-252-5-11
+TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+DPAK TO-252 DPAK-5 TO-252-5
+0
+10
+5
 meiBib
 TO-263-7_TabPin4
 TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/

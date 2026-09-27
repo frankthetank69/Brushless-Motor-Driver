@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "32279b61-2594-49be-9438-2688b0cae02a")
+	(uuid "8f0dee8d-d771-489f-9bfc-405424866b2b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
@@ -1552,7 +1552,7 @@
 			)
 		)
 	)
-	(global_label "INH_C_L"
+	(global_label "INH"
 		(shape input)
 		(at 91.44 119.38 180)
 		(fields_autoplaced yes)
@@ -1564,7 +1564,7 @@
 		)
 		(uuid "b14c5871-1278-4fb7-84a2-f234cc23cadf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.9557 119.38 0)
+			(at 85.189 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1596,7 @@
 			)
 		)
 	)
-	(global_label "INH_A_L"
+	(global_label "INH"
 		(shape input)
 		(at 101.6 57.15 180)
 		(fields_autoplaced yes)
@@ -1608,7 +1608,7 @@
 		)
 		(uuid "b98e3f00-28c8-4f51-9670-6f18b5b2a7de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.2971 57.15 0)
+			(at 95.349 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 	)
-	(global_label "INH_B_L"
+	(global_label "INH"
 		(shape input)
 		(at 93.98 88.9 180)
 		(fields_autoplaced yes)
@@ -1696,7 +1696,7 @@
 		)
 		(uuid "d3b94d2d-1e55-483c-ad4f-404022445be7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4957 88.9 0)
+			(at 87.729 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "motor"
+		(property "Value" "motor_L"
 			(at 196.85 85.09 0)
 			(effects
 				(font

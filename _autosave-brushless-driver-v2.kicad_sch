@@ -461,6 +461,339 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x07_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1224,7 +1557,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-WROOM-32E-R2"
+		(symbol "RF_Module:ESP32-WROOM-32E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1237,7 +1570,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ESP32-WROOM-32E-R2"
+			(property "Value" "ESP32-WROOM-32E"
 				(at 1.27 34.29 0)
 				(effects
 					(font
@@ -1264,7 +1597,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RF Module, ESP32-D0WDR2-V3 SoC, with 2MB PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1291,7 +1624,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ESP32-WROOM-32E-R2_0_1"
+			(symbol "ESP32-WROOM-32E_0_1"
 				(rectangle
 					(start -12.7 33.02)
 					(end 12.7 -33.02)
@@ -1304,7 +1637,7 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32E-R2_1_1"
+			(symbol "ESP32-WROOM-32E_1_1"
 				(pin input line
 					(at -15.24 30.48 0)
 					(length 2.54)
@@ -1585,25 +1918,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 15.24 30.48 180)
 					(length 2.54)
@@ -1777,6 +2091,24 @@
 						)
 					)
 					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "IO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2932,7 +3264,7 @@
 	)
 	(global_label "A_R"
 		(shape input)
-		(at 130.81 151.13 0)
+		(at 130.81 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2942,7 +3274,7 @@
 		)
 		(uuid "155c76aa-f60b-4c3e-b9c0-671afe39b9ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1214 151.13 0)
+			(at 137.1214 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2954,7 +3286,7 @@
 	)
 	(global_label "B_R"
 		(shape input)
-		(at 130.81 153.67 0)
+		(at 130.81 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2964,7 +3296,7 @@
 		)
 		(uuid "18319904-c53e-4f22-ae1e-6d09d5935e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.3028 153.67 0)
+			(at 137.3028 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3770,7 @@
 	)
 	(global_label "C_L"
 		(shape input)
-		(at 130.81 163.83 0)
+		(at 130.81 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,7 +3780,7 @@
 		)
 		(uuid "78afc60b-fc57-4106-81a7-2619bde9e8f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0609 163.83 0)
+			(at 137.0609 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,9 +3878,31 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape bidirectional)
+		(at 144.78 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81f8f80a-421b-4eb8-ac15-53ee40b8c75c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.3236 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A_L"
 		(shape input)
-		(at 130.81 158.75 0)
+		(at 130.81 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3558,7 +3912,7 @@
 		)
 		(uuid "86796a89-e65b-434a-8372-27dd65a12839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8795 158.75 0)
+			(at 136.8795 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,6 +4010,28 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape bidirectional)
+		(at 160.02 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1546a46-525d-4097-b949-9d1d5d5abec4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.7464 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VS"
 		(shape input)
 		(at 200.66 30.48 90)
@@ -3674,6 +4050,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape bidirectional)
+		(at 160.02 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc6920c2-92a1-4094-ac6b-bfe861125713")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.444 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3724,7 +4122,7 @@
 	)
 	(global_label "C_R"
 		(shape input)
-		(at 130.81 156.21 0)
+		(at 130.81 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3734,7 +4132,7 @@
 		)
 		(uuid "c2b113be-f1ac-4a9f-bd4b-f6cae4681fd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.3028 156.21 0)
+			(at 137.3028 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4254,7 @@
 	)
 	(global_label "B_L"
 		(shape input)
-		(at 130.81 161.29 0)
+		(at 130.81 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3866,7 +4264,7 @@
 		)
 		(uuid "eb5c3142-c8a7-43f8-ba5e-46d5b8dd603f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0609 161.29 0)
+			(at 137.0609 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,187 +4666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-WROOM-32E-R2")
-		(at 115.57 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dddec7b-6707-4cb6-87ba-04dd15e0b824")
-		(property "Reference" "U1"
-			(at 117.7133 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32-WROOM-32E-R2"
-			(at 117.7133 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-			(at 132.08 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RF Module, ESP32-D0WDR2-V3 SoC, with 2MB PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 115.57 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "70901a50-5dfc-4dd3-908c-4a0629a11b2a")
-		)
-		(pin "19"
-			(uuid "2de56ea2-dca2-4ff8-a244-31d8d4064551")
-		)
-		(pin "2"
-			(uuid "2bbf670a-ce59-4fd4-9439-489779c71ae1")
-		)
-		(pin "3"
-			(uuid "e5999fc3-7594-491f-b308-c708b50e960a")
-		)
-		(pin "4"
-			(uuid "55ac7b9f-f0d9-4bda-9cd5-1f87bd0d3f56")
-		)
-		(pin "21"
-			(uuid "fdf8f274-667e-46bc-b3c5-43947782f7ee")
-		)
-		(pin "5"
-			(uuid "155caa7a-00d5-4292-9a89-ec3c3c9e9750")
-		)
-		(pin "22"
-			(uuid "70f83956-d197-401e-86e8-502f1c6c65df")
-		)
-		(pin "17"
-			(uuid "98d51134-6218-4936-b557-d3ccd4f53589")
-		)
-		(pin "20"
-			(uuid "bc52a033-708d-43d6-b30a-5c11b62540f0")
-		)
-		(pin "32"
-			(uuid "e7dc104c-30c7-4940-9940-717184cf9bf5")
-		)
-		(pin "25"
-			(uuid "ac30b30e-6ffe-4c90-8f3c-b923525198b5")
-		)
-		(pin "38"
-			(uuid "ac76b7f3-b9ba-4eec-91d3-2d0eb2926b73")
-		)
-		(pin "33"
-			(uuid "a58e414b-d9b9-44fc-8a6d-d4607f8eb128")
-		)
-		(pin "1"
-			(uuid "d0805685-860c-4ca2-8237-50db594c5830")
-		)
-		(pin "7"
-			(uuid "01a831a3-2ab9-4bb3-8b2b-3e6723d7f0db")
-		)
-		(pin "12"
-			(uuid "248863e3-e5c4-4df3-8583-cada8d7f1f7e")
-		)
-		(pin "31"
-			(uuid "5249daad-4edf-4c45-a79d-8929803eecd4")
-		)
-		(pin "27"
-			(uuid "9b5586ff-e7ac-487a-b24e-4fc28f27a55c")
-		)
-		(pin "29"
-			(uuid "323f42c1-645f-4c3e-a032-0cfe2a8fd234")
-		)
-		(pin "24"
-			(uuid "33463b9d-3505-4685-92b7-315483cc2c27")
-		)
-		(pin "13"
-			(uuid "9d9c0dcc-f4c7-417a-887b-6587865794aa")
-		)
-		(pin "11"
-			(uuid "a3201d8f-0d99-4a20-83b8-85e3b2ecf2f0")
-		)
-		(pin "23"
-			(uuid "c1fc482c-eac1-49f5-af64-9c5816c970a7")
-		)
-		(pin "36"
-			(uuid "5e6585c2-4ba5-4aba-ab21-9bbb8c5f7792")
-		)
-		(pin "16"
-			(uuid "5256c6cc-f0c4-41ac-9f38-0d0f35a9a935")
-		)
-		(pin "39"
-			(uuid "902233e0-f08a-4a49-a048-3e46bd321eb9")
-		)
-		(pin "28"
-			(uuid "001d00dc-4880-4b0b-82c8-ba2588171589")
-		)
-		(pin "37"
-			(uuid "48d85c67-f05d-4cac-a8e4-f6e8d95dad70")
-		)
-		(pin "10"
-			(uuid "e54c8b4f-c37b-4be9-8499-4a5230fa923b")
-		)
-		(pin "8"
-			(uuid "a5697aea-4ae5-484a-902e-9571bb522191")
-		)
-		(pin "15"
-			(uuid "8fc47903-7a94-4079-9e86-e1ea12e44e44")
-		)
-		(pin "35"
-			(uuid "64cd4a26-a670-4147-aadb-b67047dfda9a")
-		)
-		(pin "26"
-			(uuid "884d3882-bd23-4dde-8ba8-11466c5629ef")
-		)
-		(pin "30"
-			(uuid "8f1ab53c-3e77-4240-9756-fff95d4aadf1")
-		)
-		(pin "34"
-			(uuid "afc46ab3-fe7e-4ec5-b4b6-e6321898a50a")
-		)
-		(pin "14"
-			(uuid "99cb41fd-6ccd-4fb9-ba56-f9826cd1b69e")
-		)
-		(pin "9"
-			(uuid "9aa5d22e-9a03-499c-afd9-fb4db4ce9c70")
-		)
-		(pin "6"
-			(uuid "68d5aa08-07b2-48b2-9708-d6b9eb8ce0e7")
-		)
-		(instances
-			(project ""
-				(path "/3ed0d617-7da0-4e68-9417-effded163278"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x07_Socket")
 		(at 36.83 35.56 180)
 		(unit 1)
@@ -4799,6 +5016,187 @@
 			(project ""
 				(path "/3ed0d617-7da0-4e68-9417-effded163278"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Module:ESP32-WROOM-32E")
+		(at 115.57 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f3aaa9b-2501-4f3a-8a8e-abf9f82ee805")
+		(property "Reference" "U3"
+			(at 117.7133 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-WROOM-32E"
+			(at 117.7133 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+			(at 132.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 115.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "32"
+			(uuid "239be5b9-123d-4669-b76f-3226508be436")
+		)
+		(pin "29"
+			(uuid "ffb8d198-2b5c-48a0-92bb-593c21b81e0d")
+		)
+		(pin "16"
+			(uuid "cca5b306-9533-4c6e-a86e-c83acf9a6207")
+		)
+		(pin "23"
+			(uuid "6d4f9626-a480-4228-9485-86a959538038")
+		)
+		(pin "30"
+			(uuid "7703b9ca-f061-4eb8-bfd0-c57a80582452")
+		)
+		(pin "28"
+			(uuid "ac4c81f3-4aa2-4a93-9eb9-2fabb4baa8fd")
+		)
+		(pin "1"
+			(uuid "b5da4306-4485-4c66-afd3-85b03cb10fd7")
+		)
+		(pin "37"
+			(uuid "7a29b736-1df2-49d2-a42f-5a2d8deb856b")
+		)
+		(pin "5"
+			(uuid "b64c68ab-2d91-40a0-a83e-071c12e327dc")
+		)
+		(pin "21"
+			(uuid "89459e1a-2d1c-43aa-82b0-684c3114c3fb")
+		)
+		(pin "18"
+			(uuid "6ad6b268-f1c3-44d7-8db9-7fde10fef1b5")
+		)
+		(pin "3"
+			(uuid "40aeb42c-fdb9-4e35-92b4-4b240b34cb23")
+		)
+		(pin "4"
+			(uuid "dcc58909-c067-4526-b818-70c656c737f7")
+		)
+		(pin "22"
+			(uuid "2f268a17-51b2-4715-ad5b-248709a6e4a0")
+		)
+		(pin "20"
+			(uuid "b6bfa30c-041a-4d17-927b-a8d5bb708f8a")
+		)
+		(pin "17"
+			(uuid "2c36b25b-db8b-42ee-88b8-2944be19c85b")
+		)
+		(pin "19"
+			(uuid "0757f4da-8bd8-43fe-808c-514dcd48dcbb")
+		)
+		(pin "25"
+			(uuid "edd848a5-dc56-4747-8ee7-283089e1d7e9")
+		)
+		(pin "15"
+			(uuid "4c1b44df-d7c7-42b6-844c-9e7ecf594845")
+		)
+		(pin "2"
+			(uuid "769d76e7-b202-499b-a773-e647ffe02c1a")
+		)
+		(pin "39"
+			(uuid "dd117916-9db6-430a-9c1c-304a9a2083f2")
+		)
+		(pin "24"
+			(uuid "5be07797-faec-4155-97bb-f3a2f5d700d0")
+		)
+		(pin "26"
+			(uuid "197949f7-15a6-4ef2-a86e-bd9566e41bf0")
+		)
+		(pin "38"
+			(uuid "0db189ce-3fe4-4a9c-ae17-a8703799c9e4")
+		)
+		(pin "35"
+			(uuid "7bf97fa8-de0b-4092-b285-a5046fa52a67")
+		)
+		(pin "34"
+			(uuid "87dc8665-73b5-46e4-8ef0-bdb0f7e27536")
+		)
+		(pin "14"
+			(uuid "c2534803-5d18-4c05-85e6-85699a478c20")
+		)
+		(pin "13"
+			(uuid "27fa7ccf-e706-4c01-917f-01eea8f62558")
+		)
+		(pin "27"
+			(uuid "1e17ab2d-eb73-4e68-855e-9625fa49bf57")
+		)
+		(pin "31"
+			(uuid "b28af832-a79d-466a-b102-cc2a578cc052")
+		)
+		(pin "33"
+			(uuid "ef6c4caa-749e-458c-a922-b992088a7f03")
+		)
+		(pin "36"
+			(uuid "0ed49c6f-2205-412e-83a8-2b1257e0c21f")
+		)
+		(pin "12"
+			(uuid "484a92f8-6140-43f0-ad30-e2121641e2bc")
+		)
+		(pin "6"
+			(uuid "da6b114f-d00d-4d74-8d84-551d5e802be0")
+		)
+		(pin "7"
+			(uuid "0eb10e11-81c6-4c03-ae64-a7352374fe9b")
+		)
+		(pin "10"
+			(uuid "24b8a10a-6e6b-4995-bf08-4f6d552f10e2")
+		)
+		(pin "8"
+			(uuid "2c2fd6d8-e37d-47dc-9be8-2b36ab66e795")
+		)
+		(pin "11"
+			(uuid "f1c47985-1efc-49c5-a211-df49df9c4050")
+		)
+		(pin "9"
+			(uuid "725ec1cc-af76-419c-aa39-2a89ed6d8e79")
+		)
+		(instances
+			(project ""
+				(path "/3ed0d617-7da0-4e68-9417-effded163278"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5171,6 +5569,88 @@
 			(project "brushless-driver-v2"
 				(path "/3ed0d617-7da0-4e68-9417-effded163278"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 165.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5525fcc-7711-4d7a-8237-41d418aab933")
+		(property "Reference" "J6"
+			(at 166.37 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 166.37 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "874d2a78-4d82-4c65-8d70-deb5bc6e45e9")
+		)
+		(pin "3"
+			(uuid "bd9f8a88-3b21-445a-aae9-6b39552230d0")
+		)
+		(pin "4"
+			(uuid "ee25c93b-eb19-4508-ad1d-c10fab84acce")
+		)
+		(pin "5"
+			(uuid "2ee1dfac-1c07-4e9f-8155-daaa51e76510")
+		)
+		(pin "2"
+			(uuid "67d0be2d-0d85-4cf8-a967-ecc5d944dc96")
+		)
+		(pin "1"
+			(uuid "f340e880-e58f-474a-a528-92693e16b59a")
+		)
+		(instances
+			(project ""
+				(path "/3ed0d617-7da0-4e68-9417-effded163278"
+					(reference "J6")
 					(unit 1)
 				)
 			)

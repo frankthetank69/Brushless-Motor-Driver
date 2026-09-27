@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e58193a5-82cd-4312-809c-99ad4d2391fe")
+	(uuid "71716aff-dd9d-4edb-9a14-98b07c42dc4f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
@@ -1310,7 +1310,7 @@
 			)
 		)
 	)
-	(global_label "B"
+	(global_label "B_R"
 		(shape input)
 		(at 101.6 86.36 180)
 		(fields_autoplaced yes)
@@ -1322,7 +1322,7 @@
 		)
 		(uuid "248996bb-a773-46a2-b3d3-1ec1d703c40f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.3448 86.36 0)
+			(at 95.1072 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1354,7 @@
 			)
 		)
 	)
-	(global_label "INH_B"
+	(global_label "INH"
 		(shape input)
 		(at 101.6 88.9 180)
 		(fields_autoplaced yes)
@@ -1366,7 +1366,7 @@
 		)
 		(uuid "3b09bb67-1740-43d0-9857-b6c80ce79dc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.1114 88.9 0)
+			(at 95.349 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1398,7 @@
 			)
 		)
 	)
-	(global_label "A"
+	(global_label "A_R"
 		(shape input)
 		(at 109.22 54.61 180)
 		(fields_autoplaced yes)
@@ -1410,7 +1410,7 @@
 		)
 		(uuid "50340888-a37d-4c65-9016-5457acedb56d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.1462 54.61 0)
+			(at 102.9086 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1442,7 @@
 			)
 		)
 	)
-	(global_label "C"
+	(global_label "C_R"
 		(shape input)
 		(at 99.06 116.84 180)
 		(fields_autoplaced yes)
@@ -1454,7 +1454,7 @@
 		)
 		(uuid "62731f2f-d42c-4129-a89d-22e06bb124ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8048 116.84 0)
+			(at 92.5672 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1486,7 @@
 			)
 		)
 	)
-	(global_label "INH_C"
+	(global_label "INH"
 		(shape input)
 		(at 99.06 119.38 180)
 		(fields_autoplaced yes)
@@ -1498,7 +1498,7 @@
 		)
 		(uuid "6e97decb-b6d6-461b-aa04-ca8c2f287e74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.5714 119.38 0)
+			(at 92.809 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1662,7 @@
 			)
 		)
 	)
-	(global_label "INH_A"
+	(global_label "INH"
 		(shape input)
 		(at 109.22 57.15 180)
 		(fields_autoplaced yes)
@@ -1674,7 +1674,7 @@
 		)
 		(uuid "a98eaa66-8c98-49f0-aa24-c41557101803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9128 57.15 0)
+			(at 102.969 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "motor"
+		(property "Value" "motor_R"
 			(at 204.47 85.09 0)
 			(effects
 				(font
