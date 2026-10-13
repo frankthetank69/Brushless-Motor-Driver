@@ -760,7 +760,7 @@
 		(at 149.86 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a1ffa67-26f8-4c4b-9ef2-f65400b40a45")
+		(uuid "1cb5f4d0-83fc-41ec-8674-5fbb09fbc506")
 	)
 	(junction
 		(at 104.14 91.44)
@@ -890,6 +890,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 83.82) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302b6c7f-60b8-4824-92c1-ef2d187ed4e8")
+	)
+	(wire
+		(pts
 			(xy 148.59 114.3) (xy 152.4 114.3)
 		)
 		(stroke
@@ -957,16 +967,6 @@
 			(type default)
 		)
 		(uuid "4af2e4ce-f2a0-4c03-9668-8a253b6597b6")
-	)
-	(wire
-		(pts
-			(xy 152.4 86.36) (xy 190.5 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d52c9ab-3e02-40cc-92ee-d3f4508ca1b8")
 	)
 	(wire
 		(pts
@@ -1060,16 +1060,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 190.5 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "894e0be8-6f3c-482e-adc5-8990b24bfdbb")
-	)
-	(wire
-		(pts
 			(xy 148.59 116.84) (xy 152.4 116.84)
 		)
 		(stroke
@@ -1147,16 +1137,6 @@
 			(type default)
 		)
 		(uuid "ad8050d9-2e58-452e-a504-6ae70c483acd")
-	)
-	(wire
-		(pts
-			(xy 152.4 81.28) (xy 190.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41a9e70-3ac9-4fcc-9af2-45b81a40cc54")
 	)
 	(wire
 		(pts
@@ -1280,6 +1260,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9256e9f-7e4c-4938-8bc1-42c829d4bb07")
+	)
+	(wire
+		(pts
 			(xy 120.65 114.3) (xy 121.92 114.3)
 		)
 		(stroke
@@ -1287,6 +1277,16 @@
 			(type default)
 		)
 		(uuid "fa4aed4d-eee0-4f4b-a7cc-2c95aa041e19")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec9c158-6996-4760-99f4-dd58dfcd66ae")
 	)
 	(global_label "GND"
 		(shape input)
@@ -2592,16 +2592,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 195.58 83.82 0)
+		(at 210.82 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a500e46-2d72-41b2-b085-374933c2af16")
 		(property "Reference" "J4"
-			(at 196.85 82.55 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2609,7 @@
 			)
 		)
 		(property "Value" "motor_L"
-			(at 196.85 85.09 0)
+			(at 212.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2618,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
-			(at 195.58 83.82 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 83.82 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 83.82 0)
+			(at 210.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
