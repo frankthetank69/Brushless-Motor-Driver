@@ -23,10 +23,10 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "text": true,
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",
